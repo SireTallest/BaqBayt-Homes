@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BaqBayt Homes — Find Your Dream Home</title>
+
+  <!-- Fonts (swap with your preferred fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/main/main.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="logo" href="#">
+            <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2L2 7v9a2 2 0 0 0 2 2h4v-7h4v7h4a2 2 0 0 0 2-2V7z"/></svg>
+            <span class="brand-name">BaqBayt Homes</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul class="nav-list" id="navList">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#offers">Top Offers</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="../surveying/surveying.html">Surveying</a></li>
+            <li><a href="../business/business.html">Businesses</a></li>
+            </ul>
+        </nav>
+
+        <!-- <div class="actions">
+            <a class="btn-outline" href="#">Log In</a>
+            <a class="btn-primary" href="#">Sign Up</a>
+        </div> -->
+
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+            <span class="hamburger"></span>
+        </button>
+        </div>
+    </header>
+
+  <!-- Hero -->
+<main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Find Your Dream<br/>Home Today</h1>
+          <p class="lead">We provide a complete rental of real estate. We have been operating in Northern Cyprus for over 10 years.</p>
+          <a href="#offers" class="btn-primary">Get Started</a>
+        </div>
+
+        <figure class="hero-media" aria-hidden="false">
+          <!-- Replace with exported Figma hero image -->
+          <img src="/main/images/heroimage.png" alt="Modern house exterior at dusk">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Top Offers -->
+    <section id="offers" class="offers">
+      <div class="container">
+        <header class="section-header">
+          <h2>Top Offers</h2>
+          <p class="muted">Fulfill your career dreams, enjoy all the achievements of the city center and luxury housing to the fullest.</p>
+        </header>
+
+        <div class="carousel-wrap">
+          <button class="carousel-btn prev" data-carousel="properties" aria-label="Previous">‹</button>
+
+          <div class="carousel" id="propertiesCarousel" data-visible="3" tabindex="0">
+            <!-- Repeat property-card for each item (replace images/text with real content) -->
+            <article class="property-card">
+              <img src="/main/images/luxury.png" alt="2+1 bedroom villa living room">
+              <div class="card-body">
+                <h3>2+1 bedroom, Villa</h3>
+                <p class="price">$250,000 — 3 Beds, 2 Baths</p>
+                <ul class="meta">
+                  <li><strong>City:</strong> Lefkoşa</li>
+                  <li><strong>Balcony:</strong> Yes</li>
+                </ul>
+              </div>
+            </article>
+            
+
+            <article class="property-card">
+              <img src="/main/images/ensuit.png" alt="Duplex exterior">
+              <div class="card-body">
+                <h3>1+1 Duplex</h3>
+                <p class="price">$120,000 — 1 Bed, 1 Bath</p>
+                <ul class="meta">
+                  <li><strong>City:</strong> Gazilyurt</li>
+                  <li><strong>Balcony:</strong> Yes</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img src="/main/images/sitting room.png" alt="3+2 bedroom flat living room">
+              <div class="card-body">
+                <h3>3+2 Bedroom Flat</h3>
+                <p class="price">$320,000 — 3 Beds, 2 Baths</p>
+                <ul class="meta">
+                  <li><strong>City:</strong> Barcelona</li>
+                  <li><strong>Balcony:</strong> No</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="property-card">
+              <img src="/main/images/Office.png" alt="Modern apartment interior">
+              <div class="card-body">
+                <h3>5i large design apartment</h3>
+                <p class="price">$680,000 — 5 Beds, 4 Baths</p>
+                <ul class="meta">
+                  <li><strong>City:</strong> Wales</li>
+                  <li><strong>Balcony:</strong> Yes</li>
+                </ul>
+              </div>
+            </article>
+
+            <!-- clone as needed -->
+          </div>
+
+          <button class="carousel-btn next" data-carousel="properties" aria-label="Next">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA repeat -->
+    <section class="cta-hero">
+      <div class="container cta-inner">
+        <div>
+          <h2>Find Your Dream Home Today</h2>
+          <p class="muted">We provide a complete rental of real estate. We have been operating in Turkey and Lorem Ipsum Place more than 15 years.</p>
+          <a href="#contact" class="btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about section-light">
+      <div class="container about-grid">
+        <figure class="about-figure">
+          <img src="/main/images/officebuilding.png" alt="Office building illustration">
+        </figure>
+
+        <div class="about-text">
+          <h2>About us</h2>
+          <p>We are a company that connects the world of real estate and finance. We provide a complete service for the sale, purchase or rental of real estate. Our advantage is more than 15 years of experience and sold in attractive locations in Turkey with branches in Northern Cyprus and Manchester, U.K.</p>
+          <p>We have a connection to all banks on the Turkish market, so we can solve everything under one roof. By constantly innovating our business activities, we move forward and we are able to offer only above standard services that set us apart from the competition.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <header class="section-header">
+          <h2>Testimonials</h2>
+          <p class="muted">We have had several clients over the years. Below are some of the testimonials given by our clients over the years.</p>
+        </header>
+
+        <div class="testimonials-grid" id="testimonialsSlider">
+          <blockquote class="testimonial">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique in pellentesque ultricies et massa neque, convallis lorem.”</p>
+            <footer>— Elvis Akpobome, 2 bedroom apartment in Lefkosa</footer>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique in pellentesque ultricies et massa neque, convallis lorem.”</p>
+            <footer>— Mustafa Alioglu, Duplex apartment in Lefke</footer>
+          </blockquote>
+
+          <blockquote class="testimonial">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique in pellentesque ultricies et massa neque, convallis lorem.”</p>
+            <footer>— Oladepo Kazeem, 3+2 bedroom apartment in Swansea</footer>
+          </blockquote>
+        </div>
+
+        <div class="dots" id="testDots" aria-hidden="false"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section-light">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Us</h2>
+          <p class="muted">Send us a message and we'll get back to you within 24 hours.</p>
+            <form id="contactForm" class="contact-form" novalidate>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+
+        <aside class="contact-aside">
+          <h3>Office</h3>
+          <p>BaqBayt Homes<br/>123 Real Estate Ave<br/>Ikorodu</p>
+          <p><strong>Email:</strong>abdoladepo@gmail.com<br/><strong>Phone:</strong>+2348103642016</p>
+        </aside>
+      </div>
+    </section>
+</main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+        <div class="footer-brand">
+            <svg width="32" height="32" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2L2 7v9a2 2 0 0 0 2 2h4v-7h4v7h4a2 2 0 0 0 2-2V7z"/></svg>
+            <small>BaqBayt Homes</small>
+        </div>
+        <p class="copyright">© <span id="year"></span> BaqBayt Homes — All rights reserved.</p>
+        </div>
+    </footer>
+
+  <script src="/main/main.js" defer></script>
+</body>
+</html>
