@@ -30,6 +30,7 @@ This project covers the company’s three major focus areas:
 ---
 
 ## 📂 Project Structure
+_
 
 project-root/
 │── index.html # Home page (Real Estate focus)
@@ -43,6 +44,7 @@ project-root/
 │ ├── images/ # Project images
 │ └── icons/ # Logos & icons
 └── README.md
+_
 
 ## 🛠️ Setup & Usage
 
