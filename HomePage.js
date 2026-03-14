@@ -8,20 +8,19 @@ document.addEventListener('DOMContentLoaded', function () {
   // Menu toggle for small screens
   const menuBtn = document.getElementById('menuBtn');
   const navList = document.getElementById('navList');
+
   if (menuBtn && navList) {
     menuBtn.addEventListener('click', () => {
       const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
       menuBtn.setAttribute('aria-expanded', String(!expanded));
-      navList.style.display = expanded ? '' : 'flex';
+      navList.classList.toggle('nav-open'); // toggle a class instead of inline style
     });
 
-    // Close menu on link click (mobile)
-    navList.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        if (window.innerWidth < 820) {
-          navList.style.display = '';
-          menuBtn.setAttribute('aria-expanded', 'false');
-        }
+    // Close menu when a link is clicked
+    navList.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navList.classList.remove('nav-open');
+        menuBtn.setAttribute('aria-expanded', 'false');
       });
     });
   }
